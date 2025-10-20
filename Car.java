@@ -1,62 +1,75 @@
 public class Car {
     private int id;
-    private String mark;
+    private String brand;
     private String model;
     private int year;
     private String color;
     private double price;
-    private String RegistrNumber;
-    
+    private String registrationNumber;
 
-    public car(int id, String mark, String model, int year, String color, double price, String RegistNubmer) {
+    public Car(int id, String brand, String model, int year, String color, double price, String registrationNumber) {
         this.id = id;
-        this.mark = mark;
+        this.brand = brand;
         this.model = model;
         this.year = year;
         this.color = color;
         this.price = price;
-        this.RegistrNumber = RegistNubmer;
+        this.registrationNumber = registrationNumber;
     }
+
     public int getId() {
         return id;
     }
+
     public void setId(int id) {
         this.id = id;
     }
-    public String getmark() {
-        return mark;
+
+    public String getBrand() {
+        return brand;
     }
-    public void setmark(String mark) {
-        this.mark = mark;
+
+    public void setBrand(String brand) {
+        this.brand = brand;
     }
-    public String getmodel() {
+
+    public String getModel() {
         return model;
     }
-    public void setmodel(String model) {
+
+    public void setModel(String model) {
         this.model = model;
     }
-    public int getyear() {
+
+    public int getYear() {
         return year;
     }
-    public void setyear(int year) {
+
+    public void setYear(int year) {
         this.year = year;
     }
-    public String getcolor() {
+
+    public String getColor() {
         return color;
     }
-    public void setcolor(String color) {
+
+    public void setColor(String color) {
         this.color = color;
     }
-    public double getprice() {
+
+    public double getPrice() {
         return price;
     }
-    public void setprice(double price) {
+
+    public void setPrice(double price) {
         this.price = price;
     }
-    public String getRegistNumber() {
-        return RegistrNumber;
+
+    public String getRegistrationNumber() {
+        return registrationNumber;
     }
-    public void setRegisterNumber(String RegistNubmer) {
-        this.RegistrNumber = RegistNubmer;
+
+    public void setRegistrationNumber(String registrationNumber) {
+        this.registrationNumber = registrationNumber;
     }
-    }
+}
